@@ -1,13 +1,6 @@
----
-title: Chessboard & Rice Challenge
-emoji: 📚
-colorFrom: yellow
-colorTo: purple
-sdk: gradio
-sdk_version: 5.49.1
-app_file: app.py
-pinned: false
----
+
+Title: Chessboard & Rice Challenge
+
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
@@ -34,3 +27,19 @@ built with **Gradio** and **Plotly**, and ready for deployment on **Hugging Face
 
 ## 📂 Project Structure
 
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+# 1️⃣ Create virtual environment
+python -m venv .venv
+source .venv/bin/activate   # macOS / Linux
+.venv\Scripts\activate      # Windows
+
+# 2️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Run the app
+python app.py
